@@ -1,0 +1,6 @@
+@kalashop_HostAddress = http://localhost:5051
+
+GET {{kalashop_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
