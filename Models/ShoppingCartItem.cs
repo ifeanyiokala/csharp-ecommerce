@@ -5,19 +5,18 @@ using System.Threading.Tasks;
 
 namespace kalashop.Models
 {
-    public class Product
+    public class ShoppingCartItem
     {
         public int Id { get; set; }
 
         //public int ProductId { get; set; }
         
-        public double Price { get; set; }
+        public float Price { get; set; }
 
-        public string Name { get; set; } = string.Empty;
+        public string Product { get; set; } = string.Empty;
 
-        public string Seller { get; set; } = string.Empty;
-
-       // public int CategoryID {get; set;}
+        public string ShoppingCartId { get; set; } = string.Empty;
     }
 }
+
 
