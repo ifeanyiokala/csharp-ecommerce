@@ -10,8 +10,6 @@ using kalashop.ViewModels;
 
 namespace kalashop.Service
 {
-    public class ProductService
-    {
         public class ProductsService : IProductService
     {
         private readonly ApplicationDBContext _context;
@@ -35,7 +33,9 @@ namespace kalashop.Service
                 throw new NotImplementedException();
             }
         }
-        public async Task AddNewProductAsync(NewProductVM newProduct)
+}
+
+        /*public  Task AddNewProductAsync(NewProductVM newProduct)
         {
             var product = new Product()
             {
@@ -53,7 +53,7 @@ namespace kalashop.Service
             //await _context.SaveChangesAsync();
 
             //Add Movie Actors
-            /*
+            
             foreach (var actorId in newProduct.ActorIds)
             {
                 var newProduct = new new_Product()

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kalashop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33e27573167cd62025a1aa27a7777e79e0cababb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24dbf07c3cdfa3532ffaae3f50b283c80c59e913")]
 [assembly: System.Reflection.AssemblyProductAttribute("kalashop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kalashop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
